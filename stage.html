@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<script src="https://kit.fontawesome.com/25f514fb8b.js" crossorigin="anonymous"></script>
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Lato", sans-serif;
+    }
+
+    body,
+    html {
+        height: 100%;
+        color: #777;
+        line-height: 1.8;
+    }
+
+    /* Create a Parallax Effect */
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* First image (Logo. Full height) */
+    .bgimg-1 {
+        background-image: url("https://blogsimages.adobe.com/adobelife/files/2016/09/AdobeBasel.png");
+        min-height: 100%;
+    }
+
+    /* Second image (Portfolio) */
+    .bgimg-2 {
+        background-image: url("/w3images/parallax2.jpg");
+        min-height: 400px;
+    }
+
+    /* Third image (Contact) */
+    .bgimg-3 {
+        background-image: url("/w3images/parallax3.jpg");
+        min-height: 400px;
+    }
+
+    .w3-wide {
+        letter-spacing: 10px;
+    }
+
+    .w3-hover-opacity {
+        cursor: pointer;
+    }
+
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1600px) {
+
+        .bgimg-1,
+        .bgimg-2,
+        .bgimg-3 {
+            background-attachment: scroll;
+            min-height: 400px;
+        }
+    }
+    #myNavbar .w3-bar-item {
+        color:black
+    }
+</style>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="#home" class="w3-bar-item w3-button"><i class="fab fa-adobe"></i> home</a>
+            <a href="#intro" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i> intro</a>
+            <a href="#presentation" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> presentation</a>
+            <a href="#deroulement" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-scroll"></i> deroulement</a>
+            <a href="#activite" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-tasks"></i> activite</a>
+            <a href="#vocabulaire" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> vocabulaire</a>
+            <a href="#hygiene et securite" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-shield-alt"></i> hygiene et securite</a>
+            <a href="#entretien" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-handshake"></i> entretien</a>
+            <a href="#competences" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-fist-raised"></i> competences</a>
+            <a href="#conclusion" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-check-square"></i> conclusion</a>
+        </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
+                MON STAGE DE 3EME
+            </span>
+        </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="intro">
+        <h3 class="w3-center">Introduction</h3>
+        <p class="w3-center"><em>Mon stage de 3eme chez Adobe</em></p>
+        <p>J'ai toujours voulu travailler dans l'informatique depuis tout petit, 
+            j'ai la chance d'avoir quelqu'un dans ma famille qui travaille depuis un peu plus de 10ans dans l'entreprise informatique Adobe,
+            créatrice de logiciels. C'est donc pour cela que je lui ai demandé s'il accepterait de me prendre avec lui pour que je découvre son métier.
+            Adobe étant une grande société, il a fallu plusieurs semaines pour obtenir l'accord de l'entreprise.
+             Au final c'est avec plaisir qu'il a organisé ces 4 jours pour moi avec plein d'activités différentes.
+        </p>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <!-- <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+        </div>
+    </div> -->
+
+
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <!-- <div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        </div>
+    </div> -->
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+                class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+</body>
+
+</html>
