@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext">
 <script src="https://kit.fontawesome.com/25f514fb8b.js" crossorigin="anonymous"></script>
 <style>
     body,
@@ -52,6 +52,10 @@
         background-image: url("./img/playroom.jpg");
         min-height: 400px;
     }
+    .bgimg-4 {
+        background-image:url("img/code_html_digital_coding_web_programming_computer_technology-670366.jpg");
+        min-height:400px;
+    }
 
     .w3-wide {
         letter-spacing: 10px;
@@ -66,13 +70,33 @@
 
         .bgimg-1,
         .bgimg-2,
-        .bgimg-3 {
+        .bgimg-3,
+        .bgimg-4 {
             background-attachment: scroll;
             min-height: 400px;
         }
     }
     #myNavbar .w3-bar-item {
         color:black
+    }
+
+    table {
+        border-collapse: collapse;
+        display: inline;
+        
+    }
+
+    td {
+        width:200px;
+        padding-top: 20px;
+    }
+
+    th, td {
+        border:1px solid black
+    }
+
+    th {
+        font-family: Lato bold;
     }
 </style>
 
@@ -129,36 +153,41 @@
     <div class="w3-content w3-container w3-padding-54" id="presentation">
         <h3 class="w3-center">Présentation de l'entreprise</h3>
         <p class="w3-center"><em>Adobe Research</em></p>
+        <p> Adobe est une entreprise informatique éditant des logiciels graphiques dont InDesign, Acrobat, Photoshop, Illustrator et
+            Flash. La société a également édité des logiciels de montage vidéo (Adobe Premiere Pro et After Effects) et
+            audio (Adobe Audition). Ces derniers sont maintenant des références mondiales dans le domaine de l'édition
+            vidéo, photo, audio et dans l'illustration et le graphisme.
+            A Bâle (Suisse), Adobe édite un logiciel moins connu du grand publique <a
+                href="https://www.adobe.com/fr/marketing/experience-manager.html">Adobe Experience Manager</a>.
+        </p>
+        <p class="w3-center"><em>Mes horaires dans l'entreprise</em></p>
 
+
+    
+        <div class="w3-center">
+            <table>
+                <tr>
+                    <th>Mardi</th>
+                    <th>Mercredi</th>
+                    <th>Jeudi</th>
+                    <th>Vendredi</th>
+                </tr>
+                <tr>
+                    <td>8h30-12h00</td>
+                    <td>8h30-12h00</td>
+                    <td>8h30-12h00</td>
+                    <td>8h30-12h00</td>
+                </tr>
+                <tr>
+                    <td>13h-16h30</td>
+                    <td>13h-16h30</td>
+                    <td>13h-16h30</td>
+                    <td>13h-16h30</td>
+                </tr>
+            </table>
+        </div>
     </div>
-
-    <body>
         
-        <table border=1px>
-            
-            <tr>
-                <td>Mardi</td>
-                <td>Mercredi</td>
-                <td>Jeudi</td>
-                <td>Vendredi</td>
-            </tr>
-            <tr>
-                <td>8h30-12h00</td>
-                <td>8h30-12h00</td>
-                <td>8h30-12h00</td>
-                <td>8h30-12h00</td>
-            </tr>
-            <tr>
-                <td>13h-16h30</td>
-                <td>13h-16h30</td>
-                <td>13h-16h30</td>
-                <td>13h-16h30</td>
-            </tr>
-            
-            
-        </table>
-        
-         </body>
             
                 <h3 class="w3-center">Lorenzini Enzo 3D</h3>
                 <p class="w3-center"><em>Monsieur Lacourt</em></p>
@@ -172,19 +201,25 @@
 
     <div class="w3-content w3-container w3-padding-54" id="deroulement">
         <h3 class="w3-center">Déroulement du stage</h3>
-        <p class="w3-center"><em>1er jour: Le premier jour de 9h jusqu'à midi j'étais avec qui lui programme des sites que
+        <p class="w3-center"><em>1er jour: Le premier jour de 9h jusqu'à midi j'étais avec Christophe qui lui programme des sites que
                 les clients demandes avec ses directives, exemple il a déjà travailler pour un magasin qui vend des instruments de musique,
-                 ou encore pour yamaha.L'après-midi de 14h à 16h j'étais avec un manager qui s'appel et qui m'a emmené avec lui dans un meeting ou ils
+                 ou encore pour yamaha.L'après-midi de 14h à 16h j'étais avec un manager qui s'appel  Gilles  qui m'a emmené avec lui dans un meeting ou ils
                  ont parler avec des gens qui était dans d'autre pays,après avoir suivit ce meeting je lui est donc poser
                  plein de questions sur sont métier se qu'il fesait exactement. Mes sentiments j'ai vraiment bien aimer cette journer parce que j'ai bien vu et découvert ce qu'était un meeting.</em>
-                 <p class="w3-center"><em>2ème jour: Le deuxième jour de 9h jusqu'à midi j'étais avec qui lui travail en tant que qui consiste à résoudre les problème qui se passe sur les logiciel créer par Adobe,
-                     donc pendant ces 2h j'ai été a coter de lui a observer comment il fesait pour résoudre ces problèmes.L'après-midi de 14h à 15h j'ai été avec qui lui programme des machine virtuelle,
+                 <p class="w3-center"><em>2ème jour: Le deuxième jour de 9h jusqu'à midi j'étais avec Guillaume qui lui travail en tant que qui consiste à résoudre les problème qui se passe sur les logiciel créer par Adobe,
+                     donc pendant ces 2h j'ai été a coter de lui a observer comment il fesait pour résoudre ces problèmes.L'après-midi de 14h à 15h j'ai été avec  Dominique qui lui programme des machine virtuelle,
                     et il ma donc montrer quelque lignes de code qu'il était entrain de reparer. Ensuite de 15h à 16h on ma préter un ordinateur pour commencer a programmer ce rapport de stage.
                     J'ai vraiment adorer cette journée j'ai vraiment découvert différente manière de faire du code et j'ai eu l'occasion de moi aussi en faire un peu. </em>
-                    <p class="w3-center"><em>3ème jour:</em>
-                        <p class="w3-center"><em>4ème jour:</em>
+                    <p class="w3-center"><em>3ème jour:Le troisième jour de 10h jusqu'à midi j'étais avec Christian qui  Bertrand</em>
+                        <p class="w3-center"><em>4ème jour:Alexandre</em>
+    </div>
+    <div class="bgimg-4 w3-display-container w3-padding-54 w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide"></span>
+        </div>
     </div>
     
+
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
         <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Haut de page</a>
