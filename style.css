@@ -54,6 +54,10 @@ html {
     background-image: url("https://www.ladn.eu/wp-content/uploads/2018/10/adobe-max-1140x480.jpg?v=4");
     min-height: 400px;
 }
+.bgimg-6{
+    background-image: url("https://www.megabyte.be/wp-content/uploads/2016/05/Security.jpg");
+    min-height: 400px;
+}
 
 .w3-wide {
     letter-spacing: 10px;
@@ -70,7 +74,8 @@ html {
     .bgimg-2,
     .bgimg-3,
     .bgimg-4,
-    .bgimg-5 {
+    .bgimg-5,
+    .bgimg-6{
         background-attachment: scroll;
         min-height: 400px;
     }
