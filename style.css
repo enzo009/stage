@@ -21,7 +21,9 @@ html {
 .bgimg-2,
 .bgimg-3,
 .bgimg-4,
-.bgimg-5 {
+.bgimg-5,
+.bgimg-6,
+.bgimg-7 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,6 +60,11 @@ html {
     background-image: url("https://www.megabyte.be/wp-content/uploads/2016/05/Security.jpg");
     min-height: 400px;
 }
+.bgimg-7{
+    background-image: url("https://miro.medium.com/max/3960/0*HICLyAdNSIyT0ODU.jpg");
+    min-height: 400px;
+
+}
 
 .w3-wide {
     letter-spacing: 10px;
@@ -75,7 +82,8 @@ html {
     .bgimg-3,
     .bgimg-4,
     .bgimg-5,
-    .bgimg-6{
+    .bgimg-6,
+    .bgimg-7{
         background-attachment: scroll;
         min-height: 400px;
     }
